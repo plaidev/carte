@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-class OrderCompletePresenter: OrderCompleteModuleInput {
+class OrderCompletePresenter {
 
     weak var view: OrderCompleteViewInput!
     var interactor: OrderCompleteInteractorInput!

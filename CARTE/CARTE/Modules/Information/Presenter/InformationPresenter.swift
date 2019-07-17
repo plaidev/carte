@@ -6,7 +6,7 @@
 //  Copyright © 2019 PLAID, inc. All rights reserved.
 //
 
-class InformationPresenter: InformationModuleInput, InformationViewOutput, InformationInteractorOutput {
+class InformationPresenter: InformationViewOutput, InformationInteractorOutput {
 
     weak var view: InformationViewInput!
     var interactor: InformationInteractorInput!

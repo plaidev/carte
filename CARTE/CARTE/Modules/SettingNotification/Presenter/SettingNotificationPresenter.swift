@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-class SettingNotificationPresenter: SettingNotificationModuleInput {
+class SettingNotificationPresenter {
 
     weak var view: SettingNotificationViewInput!
     var interactor: SettingNotificationInteractorInput!

@@ -8,7 +8,7 @@
 
 import RxSwift
 
-class ItemPresenter: ItemModuleInput {
+class ItemPresenter {
 
     enum Row: Int {
         case basic

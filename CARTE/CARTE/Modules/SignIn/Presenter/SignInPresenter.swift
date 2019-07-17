@@ -8,7 +8,7 @@
 
 import FirebaseAuth
 
-class SignInPresenter: SignInModuleInput {
+class SignInPresenter {
 
     weak var view: SignInViewInput!
     var interactor: SignInInteractorInput!

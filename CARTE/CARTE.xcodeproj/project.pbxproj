@@ -92,7 +92,6 @@
 		2550571A9755B909D70999AD /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DD3FE049E02881F7845D2 /* HomeRouter.swift */; };
 		25919CD27E74AFBD3C9EAE3B /* Pods_NotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC9D3A19F9C148CECBD0A57 /* Pods_NotificationServiceExtension.framework */; };
 		27BA962D19E61576D244D1FE /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384D1A226BE2A19740572DE /* FavoritePresenter.swift */; };
-		2858A769ABFEA6ED0212FA20 /* ProfileModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31217817900827C973403E72 /* ProfileModuleInput.swift */; };
 		287913D0DC1BC8C38A93A4A9 /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8A436526BBE2532A0509D /* SignInInteractor.swift */; };
 		28B5BB3D6D1502BE44EA9C17 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FCA9F81DE7C275E5E87BC /* ItemViewController.swift */; };
 		29A671CBF9086EE96E96E9EA /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD0505F2B2370B527027FA /* HomeInteractor.swift */; };
@@ -103,7 +102,6 @@
 		33A85541EEE3A378C2A32822 /* ProfileConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BC8F78CBB11144A1B59 /* ProfileConfigurator.swift */; };
 		3716601A6C61D4969CA7F874 /* OrderCompleteConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E339CB2405AAF8CABEF3761E /* OrderCompleteConfigurator.swift */; };
 		38F472F6DF356EE4837FCDAC /* SettingNotificationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC61B1DE34E42AF9CAB882A /* SettingNotificationInteractorInput.swift */; };
-		39A6572EB4C1B553A7CFF349 /* OrderCompleteModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E53058164BE13D6C6C975F2 /* OrderCompleteModuleInput.swift */; };
 		3B73169F4A3D887215C146BF /* SearchViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C69E40726E4C13E2CA4284C /* SearchViewInput.swift */; };
 		3CC870E7BDBC8A3599F4A7CB /* SettingNotificationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85A74494AF47C2BE4BC433 /* SettingNotificationRouterInput.swift */; };
 		3DF582570893514961F6410F /* SearchResultInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A1B6B89E52F2E2C915B7FB /* SearchResultInteractorInput.swift */; };
@@ -136,16 +134,13 @@
 		5FBC73AE8918662D077C61EF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC43DA1F0012E37DFCB2E0 /* SignInViewController.swift */; };
 		6011A3EF82255D13F67B2D82 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA31846971C0B2363B3CAE /* SearchViewController.swift */; };
 		604C6E2BF2133908EDA53082 /* InformationInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C791E27CFE58C841F1442B4A /* InformationInitializer.swift */; };
-		62C22914FF449279C053AD62 /* SignInModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2122E2A9B5021B7E9F0C5 /* SignInModuleInput.swift */; };
 		6338C64E0CB3BD6CF8A7D22A /* MyPageViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83550F1CCE01A8FBC0C5BAFB /* MyPageViewOutput.swift */; };
 		63A4E36DDB5049A05EEBAC01 /* Pods_CARTE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3619C8827689C5E26601F0DA /* Pods_CARTE.framework */; };
-		63DDF589BE33073FF824EFEE /* FavoriteModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E533FEDBC80CF8A0ADF13A /* FavoriteModuleInput.swift */; };
 		6441B8B578A3FD3555466B97 /* SearchResultInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14BE49908AEBCF5F85F34D /* SearchResultInitializer.swift */; };
 		651ED5C30D14C09E51401BCA /* ProfileRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D3F0BFB29507E0E94D1C9 /* ProfileRouterInput.swift */; };
 		692B9942126F07F676E7F35C /* ItemRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BAAC47841AF40B5E314B8F /* ItemRouter.swift */; };
 		69C8DB9FD1C75DDB9DF1C275 /* OrderInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDCA5DDF96A8AEF5DFB14BA /* OrderInteractorInput.swift */; };
 		6C88936860BC53F17A6D2BE1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5775792B36E8FF2B53407774 /* HomeViewController.swift */; };
-		6DCEC40AA1F3BA5D1EBC891E /* ItemModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291679EFDBD813880DD0F236 /* ItemModuleInput.swift */; };
 		7015EEAFA67F502EBEEC0EEF /* ProfileViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B666FA47DD2F9600CBCB966A /* ProfileViewOutput.swift */; };
 		702D4B9171A975F0A94C4676 /* ItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B75BD3E173A61567EE07A1 /* ItemPresenter.swift */; };
 		70355C4E4521145034B9B9B0 /* SearchResultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0CBC607E98BA2729D080C0 /* SearchResultInteractor.swift */; };
@@ -158,7 +153,6 @@
 		79880EE364A73FDA924C6611 /* TabInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E718FCD079612B053C0B5 /* TabInteractorOutput.swift */; };
 		7AD1687BD0A0933E811AAAA5 /* SettingNotificationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DA3401C2121612C1B39266 /* SettingNotificationRouter.swift */; };
 		7B36028A8CB76E61C35D871F /* ItemInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA8C9D4E1B130170C6F9EA /* ItemInteractorInput.swift */; };
-		7BC38CADED3944A5E45EAD20 /* SettingNotificationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C1315D3AF62FC50F417D1 /* SettingNotificationModuleInput.swift */; };
 		7C879C6E6DA0D43A9E14399E /* OrderCompletePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3A1058AD91B82B462D960 /* OrderCompletePresenter.swift */; };
 		7C918D1020B4A63D89EC77F0 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89299E80FA2F48EA853FED89 /* HomePresenter.swift */; };
 		7E74249DB542167F699F5EA1 /* SearchResultViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706ED037EB53213E4777C50 /* SearchResultViewInput.swift */; };
@@ -171,7 +165,6 @@
 		9308026933104B6B9FD980CA /* SearchResultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F13C9AE1D394A20C34EDDE8 /* SearchResultRouter.swift */; };
 		93334949AD7AA2570EF23036 /* HomeViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C524DC8F016442CA29EB9 /* HomeViewInput.swift */; };
 		94CEE2CF4834AE84E36FBDBA /* HomeViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBB23904FA1E9A53B21647 /* HomeViewOutput.swift */; };
-		957B5777290BF7FE33EB4EBD /* TabModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF320E221C039B362605E2E /* TabModuleInput.swift */; };
 		97E617FA0778C56940D629C8 /* ItemConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C20BDF75848718902A5D50 /* ItemConfigurator.swift */; };
 		9E2B08A071A47254EB05AF26 /* SettingNotificationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA318EB011F6F5291BC2695 /* SettingNotificationPresenter.swift */; };
 		9EA5BC59C08ED47F7BF9A46B /* SearchConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683DFFFA377350206EB8315 /* SearchConfigurator.swift */; };
@@ -180,7 +173,6 @@
 		A12F010CE43C477EF70DEDE9 /* CartConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50E65BF9F7322F8E6DB6A2 /* CartConfigurator.swift */; };
 		A166A535710F09476120A487 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A98ED0D1C4FBF065CB34AF /* FavoriteViewController.swift */; };
 		A31AA5049BE582A2BAFAD108 /* SearchResultViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC69CFE1C45183DFB80720C /* SearchResultViewOutput.swift */; };
-		A378C38E1B5BAED272A5DEE3 /* OrderModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D4CF05DAECA947A8A66C0 /* OrderModuleInput.swift */; };
 		A3A1A684D63887655DCF5A77 /* SignInInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DC1F706C864F560EEAD36 /* SignInInitializer.swift */; };
 		A3EA71A419E629058E76518E /* HomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED27D2E780DA7DE60AFBDBB /* HomeInteractorOutput.swift */; };
 		A5040FA2C5E8C2D7198FBE4B /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7869B92C18F73FB8A239B /* FavoriteRouter.swift */; };
@@ -198,16 +190,12 @@
 		B16D0560111644A8BA46362A /* OrderCompleteInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39619E6D92BE9E84FC976DD4 /* OrderCompleteInteractorInput.swift */; };
 		B3FC7A86589502B3521D8D62 /* InformationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0491E36185B76373A2BEC6 /* InformationViewOutput.swift */; };
 		B9D4991D3F877CFF156BAEDF /* TabInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531829A53A1AFC60B3BE6D4 /* TabInteractorInput.swift */; };
-		BB92116D44BC980126902235 /* SignUpModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C50E338F72F007913F480 /* SignUpModuleInput.swift */; };
 		BCA14156F7D79BF9A65A00E3 /* InformationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC2777C6C0F530F1B8497F /* InformationInteractorOutput.swift */; };
-		BEBB3C11A122572197408E20 /* CartModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D98642A39D68E1AC576E3 /* CartModuleInput.swift */; };
 		BFC8C5C6C21735EF301E2079 /* MyPageViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC6F07EDC767750EF3BEE6F /* MyPageViewInput.swift */; };
 		C003C4A79CD7E5D6EFE4A338 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826C65284223102DAD6D247 /* SearchPresenter.swift */; };
-		C077CBBE0C79993F08A67CDF /* MyPageModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5AE6496DF8E44A2FEF2CD /* MyPageModuleInput.swift */; };
 		C0ACE76438A3BC10BB849E90 /* OrderCompleteRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E994DC1F94EF4D55DFBFC /* OrderCompleteRouterInput.swift */; };
 		C0F18F597FD2816B5E0599EB /* SettingNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E2F9E535978DF13E43D971 /* SettingNotificationViewController.swift */; };
 		C1B169501F6AA1449CD2E6F1 /* TabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7D46A0514DF24002D9EB6 /* TabPresenter.swift */; };
-		C292A6CC515D534C751B1DE3 /* HomeModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80666E5145B070EBB446D85 /* HomeModuleInput.swift */; };
 		C2E1F82D5743F4CEEC99C10B /* InformationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3E69B21ED51215E6FE62E /* InformationConfigurator.swift */; };
 		C41BE7CCD65DF478A80C3C89 /* MyPageInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD68DB5CCBE45C4536084A /* MyPageInteractorInput.swift */; };
 		C6D6FCA5BACEBF327FE5DC6D /* SignUpViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626D2B3F86B00FEBB31DF0BF /* SignUpViewOutput.swift */; };
@@ -215,7 +203,6 @@
 		CA48056F950FDB4D78972BF6 /* FavoriteInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0EE790417CC4B730334066 /* FavoriteInteractorOutput.swift */; };
 		CAE80B5E0A542E1EE2BEE3D8 /* ItemViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CFBE33125F7ED9CFA0699 /* ItemViewOutput.swift */; };
 		CC4AA2EC9CCF16ECD9647AEB /* FavoriteRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02BD9D3BA0DA96D87A232E /* FavoriteRouterInput.swift */; };
-		CD1A44488AE80982D8E6AA1A /* InformationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8ED0A7DB3756DA22A1F4A8 /* InformationModuleInput.swift */; };
 		CD1CEAB0049D8A3C8C4F4930 /* SignUpRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F8A5BC3C5261630FC1479 /* SignUpRouterInput.swift */; };
 		CDB237107061C1B3B1ADA207 /* CartInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F21153E60E3E3E7E941AC /* CartInteractorOutput.swift */; };
 		D15AAADFA792BF70F71D1D85 /* OrderCompleteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742EA868836AB2020BAABEB /* OrderCompleteRouter.swift */; };
@@ -231,7 +218,6 @@
 		DE6CE91E0406426303A6FF0A /* SearchInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F4870C24B6355F9BB3C5A /* SearchInitializer.swift */; };
 		E53846602152E3615E9CAAFC /* SignUpInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895E0A51254576E6AFE16BF2 /* SignUpInitializer.swift */; };
 		E608171EF3AC1A619DC49D16 /* CartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00D3CA4875981D83F262CE /* CartPresenter.swift */; };
-		E988FE49EDF44D4816BD209E /* SearchModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C1ABE08F686DF8C385810E /* SearchModuleInput.swift */; };
 		EA210ED5501B4B58878BB994 /* HomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71543F77220874313B064FA8 /* HomeConfigurator.swift */; };
 		EC2C0660977615847BF6F496 /* SearchResultConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F949A4C550E4572DED28E /* SearchResultConfigurator.swift */; };
 		EFF9956B3516241929D888D9 /* SignInInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49878539073D2EA4C73F9B9 /* SignInInteractorInput.swift */; };
@@ -246,7 +232,6 @@
 		FA2457B2CF8C7283B9269AD8 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAA3B2156495C14464BF25 /* ProfileInteractor.swift */; };
 		FA790CDEF2048DD72EB87294 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1A9D03121152C7C86B180 /* MyPageViewController.swift */; };
 		FC148E73F73141654D46D60C /* TabInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6737E08A90A0F917A7FB353 /* TabInitializer.swift */; };
-		FCB57A5F0E6469F8B113F372 /* SearchResultModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61016C670C0A5372EDD586FB /* SearchResultModuleInput.swift */; };
 		FD555E18126AD29ADA18105F /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB3D9CF67FA742094B583F6 /* SignInPresenter.swift */; };
 		FE3F005F60B07D64617882AB /* ProfileViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28F9A3541CCBE31E1B8896 /* ProfileViewInput.swift */; };
 		FF617B080EA1BDCB90299EC6 /* SettingNotificationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F369631191D91C962D7BCEAD /* SettingNotificationConfigurator.swift */; };
@@ -349,11 +334,9 @@
 		0CDB924122A90D7D00E0D8F9 /* CartFirestoreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartFirestoreRepository.swift; sourceTree = "<group>"; };
 		0CDB924322AA0C9D00E0D8F9 /* PaymentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentItem.swift; sourceTree = "<group>"; };
 		0CDDA04122DEE46C00B1CE79 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		0F1D4CF05DAECA947A8A66C0 /* OrderModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderModuleInput.swift; sourceTree = "<group>"; };
 		0FAD8E25A7CB16E40C62C4A9 /* SettingNotificationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingNotificationViewInput.swift; sourceTree = "<group>"; };
 		1102BA7B81E0349E62362BE0 /* OrderInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderInitializer.swift; sourceTree = "<group>"; };
 		119D401D0E67168E839B2DC0 /* SignInViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewInput.swift; sourceTree = "<group>"; };
-		11E533FEDBC80CF8A0ADF13A /* FavoriteModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteModuleInput.swift; sourceTree = "<group>"; };
 		122DB7E54E56ECEA06A5041D /* InformationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformationPresenter.swift; sourceTree = "<group>"; };
 		13CC2777C6C0F530F1B8497F /* InformationInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformationInteractorOutput.swift; sourceTree = "<group>"; };
 		1531829A53A1AFC60B3BE6D4 /* TabInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabInteractorInput.swift; sourceTree = "<group>"; };
@@ -366,12 +349,10 @@
 		20DEA0C8C27A6238FDF46875 /* OrderViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderViewOutput.swift; sourceTree = "<group>"; };
 		21ACE5D3D8CC5CE37282DA9D /* ItemInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItemInteractorOutput.swift; sourceTree = "<group>"; };
 		23DC89FCDABF27BDB2A2B37F /* InformationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformationRouter.swift; sourceTree = "<group>"; };
-		291679EFDBD813880DD0F236 /* ItemModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItemModuleInput.swift; sourceTree = "<group>"; };
 		29BA2EEA16DC00CB2F4507F2 /* Pods-CARTE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CARTE.debug.xcconfig"; path = "Target Support Files/Pods-CARTE/Pods-CARTE.debug.xcconfig"; sourceTree = "<group>"; };
 		2C5367EF9D66870F0C05E522 /* SignUpPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
 		2E087E5C357F84833183EBE9 /* SearchResultRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResultRouterInput.swift; sourceTree = "<group>"; };
 		30EBB23904FA1E9A53B21647 /* HomeViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewOutput.swift; sourceTree = "<group>"; };
-		31217817900827C973403E72 /* ProfileModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileModuleInput.swift; sourceTree = "<group>"; };
 		32502235517CEBC84D9C2F36 /* OrderPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderPresenter.swift; sourceTree = "<group>"; };
 		3420F010F28B8577D2BDD5BC /* SignInConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInConfigurator.swift; sourceTree = "<group>"; };
 		3619C8827689C5E26601F0DA /* Pods_CARTE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CARTE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -381,7 +362,6 @@
 		3A8F949A4C550E4572DED28E /* SearchResultConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResultConfigurator.swift; sourceTree = "<group>"; };
 		3B14BE49908AEBCF5F85F34D /* SearchResultInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResultInitializer.swift; sourceTree = "<group>"; };
 		3B4CFBE33125F7ED9CFA0699 /* ItemViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItemViewOutput.swift; sourceTree = "<group>"; };
-		3B8ED0A7DB3756DA22A1F4A8 /* InformationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformationModuleInput.swift; sourceTree = "<group>"; };
 		3DEE2ACE44765FBA443D396A /* SettingNotificationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingNotificationInteractor.swift; sourceTree = "<group>"; };
 		3E099C883424F9C3C173447E /* MyPageInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyPageInteractorOutput.swift; sourceTree = "<group>"; };
 		3ECE7C3D0E1435B4A43A36E3 /* SearchInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
@@ -394,8 +374,6 @@
 		4FDCA5DDF96A8AEF5DFB14BA /* OrderInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderInteractorInput.swift; sourceTree = "<group>"; };
 		507742DCE4C1B2629560963B /* ItemViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItemViewInput.swift; sourceTree = "<group>"; };
 		52AC1E8C2C1B0C307C61C534 /* FavoriteViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteViewOutput.swift; sourceTree = "<group>"; };
-		545C1315D3AF62FC50F417D1 /* SettingNotificationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingNotificationModuleInput.swift; sourceTree = "<group>"; };
-		559D98642A39D68E1AC576E3 /* CartModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CartModuleInput.swift; sourceTree = "<group>"; };
 		55A6F5567B657B548BC73B9E /* OrderCompleteViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderCompleteViewInput.swift; sourceTree = "<group>"; };
 		5623EB9CB149E1A99F1841F0 /* ItemInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItemInitializer.swift; sourceTree = "<group>"; };
 		57134705FC01C4240EFE194C /* Pods-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -405,20 +383,16 @@
 		5EBA31846971C0B2363B3CAE /* SearchViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		604FF802C19867475D1A0706 /* ProfileInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileInteractorOutput.swift; sourceTree = "<group>"; };
 		60F7FB46C3C757765CA28C1D /* OrderInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderInteractorOutput.swift; sourceTree = "<group>"; };
-		61016C670C0A5372EDD586FB /* SearchResultModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResultModuleInput.swift; sourceTree = "<group>"; };
-		61D2122E2A9B5021B7E9F0C5 /* SignInModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInModuleInput.swift; sourceTree = "<group>"; };
 		626D2B3F86B00FEBB31DF0BF /* SignUpViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewOutput.swift; sourceTree = "<group>"; };
 		6294F044BCA7CF87DF8888C5 /* OrderRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderRouterInput.swift; sourceTree = "<group>"; };
 		640F21153E60E3E3E7E941AC /* CartInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CartInteractorOutput.swift; sourceTree = "<group>"; };
 		65B5BCC2524363B6BB85AF0D /* MyPageInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyPageInitializer.swift; sourceTree = "<group>"; };
-		65C1ABE08F686DF8C385810E /* SearchModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchModuleInput.swift; sourceTree = "<group>"; };
 		65E2F9E535978DF13E43D971 /* SettingNotificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingNotificationViewController.swift; sourceTree = "<group>"; };
 		6825F25BB03A4B08AB103E72 /* SearchViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchViewOutput.swift; sourceTree = "<group>"; };
 		6A069B3FB405FBFC06958CA2 /* SearchRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
 		6C0CBC607E98BA2729D080C0 /* SearchResultInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResultInteractor.swift; sourceTree = "<group>"; };
 		6C3EA8FEC69F83579EFAC115 /* ProfileRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
 		6E0491E36185B76373A2BEC6 /* InformationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformationViewOutput.swift; sourceTree = "<group>"; };
-		6E53058164BE13D6C6C975F2 /* OrderCompleteModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderCompleteModuleInput.swift; sourceTree = "<group>"; };
 		71543F77220874313B064FA8 /* HomeConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeConfigurator.swift; sourceTree = "<group>"; };
 		72D68D0C8AC8C1A384B6819F /* MyPageConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyPageConfigurator.swift; sourceTree = "<group>"; };
 		72F5DAC8F347E0C3F2EF254A /* CartRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CartRouterInput.swift; sourceTree = "<group>"; };
@@ -459,7 +433,6 @@
 		A321B92BD4773DED69832643 /* FavoriteConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteConfigurator.swift; sourceTree = "<group>"; };
 		A742EA868836AB2020BAABEB /* OrderCompleteRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderCompleteRouter.swift; sourceTree = "<group>"; };
 		A7DA3401C2121612C1B39266 /* SettingNotificationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingNotificationRouter.swift; sourceTree = "<group>"; };
-		A80666E5145B070EBB446D85 /* HomeModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeModuleInput.swift; sourceTree = "<group>"; };
 		A9A459AA0935DAD4B0D59EC8 /* HomeInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeInteractorInput.swift; sourceTree = "<group>"; };
 		A9C20BDF75848718902A5D50 /* ItemConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItemConfigurator.swift; sourceTree = "<group>"; };
 		AA1CF110CF152CF7CD4DFD92 /* SignUpInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractorOutput.swift; sourceTree = "<group>"; };
@@ -484,7 +457,6 @@
 		C9DD0505F2B2370B527027FA /* HomeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		CD0A0DF9CDE51A5FCA0E0058 /* SignUpViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CD8F4870C24B6355F9BB3C5A /* SearchInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchInitializer.swift; sourceTree = "<group>"; };
-		D18C50E338F72F007913F480 /* SignUpModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpModuleInput.swift; sourceTree = "<group>"; };
 		D276806DE20F20074E226D4B /* FavoriteInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteInteractorInput.swift; sourceTree = "<group>"; };
 		D2A1B6B89E52F2E2C915B7FB /* SearchResultInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResultInteractorInput.swift; sourceTree = "<group>"; };
 		D320FBA3D009EEF128968CE7 /* SearchInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchInteractorInput.swift; sourceTree = "<group>"; };
@@ -499,7 +471,6 @@
 		DDE8A436526BBE2532A0509D /* SignInInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
 		DE6F9D83819D23E36A853CAD /* InformationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		DEC3E69B21ED51215E6FE62E /* InformationConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformationConfigurator.swift; sourceTree = "<group>"; };
-		DEE5AE6496DF8E44A2FEF2CD /* MyPageModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyPageModuleInput.swift; sourceTree = "<group>"; };
 		DFB3D9CF67FA742094B583F6 /* SignInPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
 		DFE85839A878ADF68E67B932 /* TabRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabRouterInput.swift; sourceTree = "<group>"; };
 		E1A98ED0D1C4FBF065CB34AF /* FavoriteViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
@@ -513,7 +484,6 @@
 		EDBC38198431184456F9B6D3 /* InformationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InformationInteractor.swift; sourceTree = "<group>"; };
 		EE00D3CA4875981D83F262CE /* CartPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CartPresenter.swift; sourceTree = "<group>"; };
 		EEDA8C9D4E1B130170C6F9EA /* ItemInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItemInteractorInput.swift; sourceTree = "<group>"; };
-		EEF320E221C039B362605E2E /* TabModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabModuleInput.swift; sourceTree = "<group>"; };
 		EF78245DBDD685DFCB8D1358 /* FavoriteInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteInteractor.swift; sourceTree = "<group>"; };
 		F26C524DC8F016442CA29EB9 /* HomeViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewInput.swift; sourceTree = "<group>"; };
 		F369631191D91C962D7BCEAD /* SettingNotificationConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingNotificationConfigurator.swift; sourceTree = "<group>"; };
@@ -843,7 +813,6 @@
 		32CC5C243DDA1DAF065FF659 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				61D2122E2A9B5021B7E9F0C5 /* SignInModuleInput.swift */,
 				DFB3D9CF67FA742094B583F6 /* SignInPresenter.swift */,
 			);
 			path = Presenter;
@@ -909,7 +878,6 @@
 		4CCD1D0222B35ADB1B43B702 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				291679EFDBD813880DD0F236 /* ItemModuleInput.swift */,
 				F9B75BD3E173A61567EE07A1 /* ItemPresenter.swift */,
 			);
 			path = Presenter;
@@ -932,7 +900,6 @@
 		512277D34A7E113BA57AD727 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				31217817900827C973403E72 /* ProfileModuleInput.swift */,
 				78EDC5BE23CB243D68FFA2D6 /* ProfilePresenter.swift */,
 			);
 			path = Presenter;
@@ -951,7 +918,6 @@
 		514ADE0EDF0EE9C66CAFD250 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				0F1D4CF05DAECA947A8A66C0 /* OrderModuleInput.swift */,
 				32502235517CEBC84D9C2F36 /* OrderPresenter.swift */,
 			);
 			path = Presenter;
@@ -1000,7 +966,6 @@
 		638E32F478D26CD27EC59641 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				EEF320E221C039B362605E2E /* TabModuleInput.swift */,
 				7CA7D46A0514DF24002D9EB6 /* TabPresenter.swift */,
 				0C987ED022AEA66B00DBDBB7 /* Tab.swift */,
 			);
@@ -1010,7 +975,6 @@
 		644E9755EFFD5C90C77AE1A3 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				65C1ABE08F686DF8C385810E /* SearchModuleInput.swift */,
 				3826C65284223102DAD6D247 /* SearchPresenter.swift */,
 			);
 			path = Presenter;
@@ -1062,7 +1026,6 @@
 		6FCF1CFA7E8FB3A94FDE1488 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				3B8ED0A7DB3756DA22A1F4A8 /* InformationModuleInput.swift */,
 				122DB7E54E56ECEA06A5041D /* InformationPresenter.swift */,
 			);
 			path = Presenter;
@@ -1090,7 +1053,6 @@
 		73C3D9C15D50BF2068544FF1 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				A80666E5145B070EBB446D85 /* HomeModuleInput.swift */,
 				89299E80FA2F48EA853FED89 /* HomePresenter.swift */,
 				0C4E94F622B0D7C5004970AB /* HomeContent.swift */,
 			);
@@ -1100,7 +1062,6 @@
 		7616C501233DACAAA9A87161 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				545C1315D3AF62FC50F417D1 /* SettingNotificationModuleInput.swift */,
 				8DA318EB011F6F5291BC2695 /* SettingNotificationPresenter.swift */,
 			);
 			path = Presenter;
@@ -1119,7 +1080,6 @@
 		7904D9EC58976FE05BC28527 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				D18C50E338F72F007913F480 /* SignUpModuleInput.swift */,
 				2C5367EF9D66870F0C05E522 /* SignUpPresenter.swift */,
 			);
 			path = Presenter;
@@ -1159,7 +1119,6 @@
 		8425D901B14C912C13BC8751 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				6E53058164BE13D6C6C975F2 /* OrderCompleteModuleInput.swift */,
 				F3B3A1058AD91B82B462D960 /* OrderCompletePresenter.swift */,
 			);
 			path = Presenter;
@@ -1264,7 +1223,6 @@
 		96AE74093AD83F455D080CE8 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				61016C670C0A5372EDD586FB /* SearchResultModuleInput.swift */,
 				8D4255B35F3B93A15ED22803 /* SearchResultPresenter.swift */,
 			);
 			path = Presenter;
@@ -1390,7 +1348,6 @@
 		AD3FB5290B4A378FF0A57FE3 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				11E533FEDBC80CF8A0ADF13A /* FavoriteModuleInput.swift */,
 				E384D1A226BE2A19740572DE /* FavoritePresenter.swift */,
 			);
 			path = Presenter;
@@ -1569,7 +1526,6 @@
 		E4FC20006B5FF12DDAFC54E5 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				559D98642A39D68E1AC576E3 /* CartModuleInput.swift */,
 				EE00D3CA4875981D83F262CE /* CartPresenter.swift */,
 			);
 			path = Presenter;
@@ -1650,7 +1606,6 @@
 		F6E8B89A5070BF6981450B5B /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				DEE5AE6496DF8E44A2FEF2CD /* MyPageModuleInput.swift */,
 				FCCBF1217459AE9CE3E84890 /* MyPagePresenter.swift */,
 			);
 			path = Presenter;
@@ -1893,7 +1848,6 @@
 				0CCB0F0F22B2368A009CEE94 /* ApplicationInteractorOutput.swift in Sources */,
 				5FBC73AE8918662D077C61EF /* SignInViewController.swift in Sources */,
 				0C7A409722A570910051EE86 /* FeatureReusableView.swift in Sources */,
-				62C22914FF449279C053AD62 /* SignInModuleInput.swift in Sources */,
 				FD555E18126AD29ADA18105F /* SignInPresenter.swift in Sources */,
 				EFF9956B3516241929D888D9 /* SignInInteractorInput.swift in Sources */,
 				0C7A409B22A570C70051EE86 /* SectionTitleReusableView.swift in Sources */,
@@ -1907,7 +1861,6 @@
 				C6D6FCA5BACEBF327FE5DC6D /* SignUpViewOutput.swift in Sources */,
 				15728DECDBCCA25BA1DD31DC /* SignUpViewController.swift in Sources */,
 				0C3D4DCB22A814BE00B71991 /* TableViewConfigurator.swift in Sources */,
-				BB92116D44BC980126902235 /* SignUpModuleInput.swift in Sources */,
 				40B5118C933C4C9A1D52ACC7 /* SignUpPresenter.swift in Sources */,
 				52EE3414E408EB1C5B68AFDD /* SignUpInteractorInput.swift in Sources */,
 				0513EC2A89C15FC4C4293DFB /* SignUpInteractorOutput.swift in Sources */,
@@ -1923,7 +1876,6 @@
 				93334949AD7AA2570EF23036 /* HomeViewInput.swift in Sources */,
 				94CEE2CF4834AE84E36FBDBA /* HomeViewOutput.swift in Sources */,
 				6C88936860BC53F17A6D2BE1 /* HomeViewController.swift in Sources */,
-				C292A6CC515D534C751B1DE3 /* HomeModuleInput.swift in Sources */,
 				0C7A40B222A780CF0051EE86 /* ItemDescriptionCell.swift in Sources */,
 				7C918D1020B4A63D89EC77F0 /* HomePresenter.swift in Sources */,
 				B0C694201A0E4D215769E0AA /* HomeInteractorInput.swift in Sources */,
@@ -1940,7 +1892,6 @@
 				F64EE1ECB1EF9924BCDD192E /* FavoriteViewInput.swift in Sources */,
 				AC7549B846DE5BD7E0D5B159 /* FavoriteViewOutput.swift in Sources */,
 				A166A535710F09476120A487 /* FavoriteViewController.swift in Sources */,
-				63DDF589BE33073FF824EFEE /* FavoriteModuleInput.swift in Sources */,
 				27BA962D19E61576D244D1FE /* FavoritePresenter.swift in Sources */,
 				B102C981710F6844F7257965 /* FavoriteInteractorInput.swift in Sources */,
 				CA48056F950FDB4D78972BF6 /* FavoriteInteractorOutput.swift in Sources */,
@@ -1952,7 +1903,6 @@
 				3B73169F4A3D887215C146BF /* SearchViewInput.swift in Sources */,
 				581BCBBCE756B5C5F5EF7ED1 /* SearchViewOutput.swift in Sources */,
 				6011A3EF82255D13F67B2D82 /* SearchViewController.swift in Sources */,
-				E988FE49EDF44D4816BD209E /* SearchModuleInput.swift in Sources */,
 				C003C4A79CD7E5D6EFE4A338 /* SearchPresenter.swift in Sources */,
 				75554D5C49E1031CF5BA918D /* SearchInteractorInput.swift in Sources */,
 				AA41D160D25AB92262FAFD6A /* SearchInteractorOutput.swift in Sources */,
@@ -1966,7 +1916,6 @@
 				B3FC7A86589502B3521D8D62 /* InformationViewOutput.swift in Sources */,
 				0CCB0F0622B22DD3009CEE94 /* UserRepository.swift in Sources */,
 				8BFF1F71982F6138B3EC91AB /* InformationViewController.swift in Sources */,
-				CD1A44488AE80982D8E6AA1A /* InformationModuleInput.swift in Sources */,
 				F8AF4100728D6DF9ED4783A0 /* InformationPresenter.swift in Sources */,
 				32A7B8B2585544825BB75BC5 /* InformationInteractorInput.swift in Sources */,
 				BCA14156F7D79BF9A65A00E3 /* InformationInteractorOutput.swift in Sources */,
@@ -1980,7 +1929,6 @@
 				44308342B4136C4FD5104AC8 /* CartViewInput.swift in Sources */,
 				5A16AFC811042F6EC49FA4CD /* CartViewOutput.swift in Sources */,
 				F8C7EC69B9755343E3CF186E /* CartViewController.swift in Sources */,
-				BEBB3C11A122572197408E20 /* CartModuleInput.swift in Sources */,
 				E608171EF3AC1A619DC49D16 /* CartPresenter.swift in Sources */,
 				0A3713D6DC5C55E72B191DD2 /* CartInteractorInput.swift in Sources */,
 				0CDB923822A906F100E0D8F9 /* NewItemRepository.swift in Sources */,
@@ -1996,7 +1944,6 @@
 				D9FF5BAA4B894368434CCE69 /* OrderViewOutput.swift in Sources */,
 				D2E64A994664CAF7FA9F5DEC /* OrderViewController.swift in Sources */,
 				0C987ED122AEA66C00DBDBB7 /* Tab.swift in Sources */,
-				A378C38E1B5BAED272A5DEE3 /* OrderModuleInput.swift in Sources */,
 				1B3BF657DE9DAFE2A893315E /* OrderPresenter.swift in Sources */,
 				0CDB923622A906A200E0D8F9 /* RankingRepository.swift in Sources */,
 				69C8DB9FD1C75DDB9DF1C275 /* OrderInteractorInput.swift in Sources */,
@@ -2017,7 +1964,6 @@
 				0C7A40A322A61A1C0051EE86 /* Feature.swift in Sources */,
 				C99A5B66E8F3B5DDBC455C29 /* OrderCompleteViewOutput.swift in Sources */,
 				4311470D884A9192DE5A2B7E /* OrderCompleteViewController.swift in Sources */,
-				39A6572EB4C1B553A7CFF349 /* OrderCompleteModuleInput.swift in Sources */,
 				7C879C6E6DA0D43A9E14399E /* OrderCompletePresenter.swift in Sources */,
 				B16D0560111644A8BA46362A /* OrderCompleteInteractorInput.swift in Sources */,
 				86EA174AAAD0CF3B08BFB71B /* OrderCompleteInteractorOutput.swift in Sources */,
@@ -2030,7 +1976,6 @@
 				BFC8C5C6C21735EF301E2079 /* MyPageViewInput.swift in Sources */,
 				6338C64E0CB3BD6CF8A7D22A /* MyPageViewOutput.swift in Sources */,
 				FA790CDEF2048DD72EB87294 /* MyPageViewController.swift in Sources */,
-				C077CBBE0C79993F08A67CDF /* MyPageModuleInput.swift in Sources */,
 				0C7A408F22A56C950051EE86 /* FeatureCell.swift in Sources */,
 				0CCB0F0422B22D10009CEE94 /* User.swift in Sources */,
 				0C7A408C22A5274D0051EE86 /* AppearanceConfigurator.swift in Sources */,
@@ -2047,7 +1992,6 @@
 				FA080B41424AA5A88A84B07D /* TabViewOutput.swift in Sources */,
 				0CDB922522A8FF7100E0D8F9 /* ItemId.swift in Sources */,
 				51AC0F6C6BB2DF2AD6E26CCB /* TabViewController.swift in Sources */,
-				957B5777290BF7FE33EB4EBD /* TabModuleInput.swift in Sources */,
 				0C7A40AE22A768B20051EE86 /* PrimaryButton.swift in Sources */,
 				C1B169501F6AA1449CD2E6F1 /* TabPresenter.swift in Sources */,
 				0C7A40B022A780BC0051EE86 /* ItemBasicCell.swift in Sources */,
@@ -2066,7 +2010,6 @@
 				7E74249DB542167F699F5EA1 /* SearchResultViewInput.swift in Sources */,
 				A31AA5049BE582A2BAFAD108 /* SearchResultViewOutput.swift in Sources */,
 				0E65CE0EF840313AA01DD3F4 /* SearchResultViewController.swift in Sources */,
-				FCB57A5F0E6469F8B113F372 /* SearchResultModuleInput.swift in Sources */,
 				B0776AB9BAB4F38B54BD4DA2 /* SearchResultPresenter.swift in Sources */,
 				3DF582570893514961F6410F /* SearchResultInteractorInput.swift in Sources */,
 				551B43E51854A0355080804A /* SearchResultInteractorOutput.swift in Sources */,
@@ -2081,7 +2024,6 @@
 				4E50AE08A3A91E8F3B10B66D /* ItemViewInput.swift in Sources */,
 				CAE80B5E0A542E1EE2BEE3D8 /* ItemViewOutput.swift in Sources */,
 				28B5BB3D6D1502BE44EA9C17 /* ItemViewController.swift in Sources */,
-				6DCEC40AA1F3BA5D1EBC891E /* ItemModuleInput.swift in Sources */,
 				702D4B9171A975F0A94C4676 /* ItemPresenter.swift in Sources */,
 				7B36028A8CB76E61C35D871F /* ItemInteractorInput.swift in Sources */,
 				15E1A50D3B72371E451991B5 /* ItemInteractorOutput.swift in Sources */,
@@ -2095,7 +2037,6 @@
 				72D442368EE3B85B28BD03E9 /* SettingNotificationViewInput.swift in Sources */,
 				7390AFE2FAD5F604B8B1A26E /* SettingNotificationViewOutput.swift in Sources */,
 				C0F18F597FD2816B5E0599EB /* SettingNotificationViewController.swift in Sources */,
-				7BC38CADED3944A5E45EAD20 /* SettingNotificationModuleInput.swift in Sources */,
 				9E2B08A071A47254EB05AF26 /* SettingNotificationPresenter.swift in Sources */,
 				38F472F6DF356EE4837FCDAC /* SettingNotificationInteractorInput.swift in Sources */,
 				5F707EA5B54850F151BDB104 /* SettingNotificationInteractorOutput.swift in Sources */,
@@ -2107,7 +2048,6 @@
 				FE3F005F60B07D64617882AB /* ProfileViewInput.swift in Sources */,
 				7015EEAFA67F502EBEEC0EEF /* ProfileViewOutput.swift in Sources */,
 				D5672E3B4227A4E48A3E17F3 /* ProfileViewController.swift in Sources */,
-				2858A769ABFEA6ED0212FA20 /* ProfileModuleInput.swift in Sources */,
 				44526DA079F19410428C3068 /* ProfilePresenter.swift in Sources */,
 				B079D5828207128BDE905A22 /* ProfileInteractorInput.swift in Sources */,
 				1E5FA444EF2C7E1A30CF3E62 /* ProfileInteractorOutput.swift in Sources */,

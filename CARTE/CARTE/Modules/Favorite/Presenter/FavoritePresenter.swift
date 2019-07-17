@@ -8,7 +8,7 @@
 
 import RxSwift
 
-class FavoritePresenter: FavoriteModuleInput {
+class FavoritePresenter {
 
     weak var view: FavoriteViewInput!
     var interactor: FavoriteInteractorInput!

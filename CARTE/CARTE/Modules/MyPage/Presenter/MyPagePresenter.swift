@@ -8,7 +8,7 @@
 
 import FirebaseAuth
 
-class MyPagePresenter: MyPageModuleInput {
+class MyPagePresenter {
     
     weak var view: MyPageViewInput!
     var interactor: MyPageInteractorInput!

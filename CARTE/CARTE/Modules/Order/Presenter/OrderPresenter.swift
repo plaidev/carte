@@ -6,7 +6,7 @@
 //  Copyright © 2019 PLAID, inc. All rights reserved.
 //
 
-class OrderPresenter: OrderModuleInput, OrderInteractorOutput {
+class OrderPresenter: OrderInteractorOutput {
 
     weak var view: OrderViewInput!
     var interactor: OrderInteractorInput!

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TabPresenter: TabModuleInput {
+class TabPresenter {
 
     weak var view: TabViewInput!
     var interactor: TabInteractorInput!

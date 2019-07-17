@@ -9,7 +9,7 @@
 import RxSwift
 import FirebaseAuth
 
-class ProfilePresenter: ProfileModuleInput {
+class ProfilePresenter {
 
     weak var view: ProfileViewInput!
     var interactor: ProfileInteractorInput!

@@ -8,7 +8,7 @@
 
 import RxSwift
 
-class CartPresenter: CartModuleInput {
+class CartPresenter {
 
     weak var view: CartViewInput!
     var interactor: CartInteractorInput!

@@ -8,7 +8,7 @@
 
 import RxSwift
 
-class HomePresenter: HomeModuleInput {
+class HomePresenter {
     
     enum Section: Int {
         case feature

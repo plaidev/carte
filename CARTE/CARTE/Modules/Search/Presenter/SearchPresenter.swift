@@ -6,7 +6,7 @@
 //  Copyright © 2019 PLAID, inc. All rights reserved.
 //
 
-class SearchPresenter: SearchModuleInput, SearchViewOutput, SearchInteractorOutput {
+class SearchPresenter: SearchViewOutput, SearchInteractorOutput {
 
     weak var view: SearchViewInput!
     var interactor: SearchInteractorInput!
