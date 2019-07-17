@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./<YOUR_SERVICE_ACCOUNT_JSON>');
+const serviceAccount = require('./<YOUR_SERVICE_ACCOUNT_KEY>');
 
 const role = 'roles/storage.objectViewer';
 const member = 'allUsers';
