@@ -40,6 +40,10 @@ service cloud.firestore {
 「APNs Auth Key」を設定する必要があります。<br>
 詳細は[こちら](https://firebase.google.com/docs/cloud-messaging/ios/certs)をご覧ください。
 
+#### Cloud Storage
+デフォルトバケットを作成する必要があります。
+Firebaseコンソールにアクセスして、デフォルトバケットを作成してください。
+
 #### Hosting
 Hostingを利用するためには、`Firebase CLI`が必要になります。<br>
 [こちら](https://firebase.google.com/docs/hosting/quickstart)を参考に設定を行ってください。
