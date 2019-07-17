@@ -19,7 +19,8 @@ function hasBucketPolicy(policy, binding) {
   });
 }
 
-async function setBucketPolicyIfNeeded(policy, binding) {
+async function setBucketPolicyIfNeeded(bucket, binding) {
+  const [policy] = await bucket.iam.getPolicy();
   if (hasBucketPolicy(policy, binding)) {
     return;
   }
@@ -62,8 +63,7 @@ async function main() {
   const bucket = admin.storage().bucket();
 
   // Update bucket policy.
-  const [policy] = await bucket.iam.getPolicy();
-  await setBucketPolicyIfNeeded(policy, {
+  await setBucketPolicyIfNeeded(bucket, {
     role: role,
     members: [member]
   });
