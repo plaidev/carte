@@ -1,6 +1,6 @@
 # CARTE
-CARTE is an "KARTE for App PLAY" application.<br>
-You can use this app to validate the features of "KARTE for App".
+CARTEは、「KARTE for App」のSDKを検証するためのサンプルアプリケーションです。
+このサンプルアプリケーションでは、KARTE for App SDKの基本的な機能を試す事が可能です。
 
 ## Requirements
 * iOS 12.0+
@@ -9,8 +9,8 @@ You can use this app to validate the features of "KARTE for App".
 * Node.js 10.10+
 
 ## Installation (Firebase)
-This application uses Firebase for the backend.<br>
-Therefore, you need to set up Firebase in advance.
+このサンプルアプリケーションでは、バックエンドに「Firebase」を採用しております。
+そのため事前にFirebaseのセットアップが必要になります。
 
 ### Features of the required Firebase.
 - [x] Authentication
@@ -20,12 +20,12 @@ Therefore, you need to set up Firebase in advance.
 - [x] Hosting
 
 #### Authentication
-Enable the following login providers:
+以下のログインプロバイダを有効にしてください。
 - [x] Email and password based authentication
 - [x] Anonymous auth
 
 #### Cloud Firestore
-Set the following security rules:
+以下の通りセキュリティルールを設定してください。
 ```
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -37,44 +37,60 @@ service cloud.firestore {
 ```
 
 #### Cloud Messaging
-Register the pre-created APNs Auth Key with Firebase.
+「APNs Auth Key」を設定する必要があります。
+詳細は[こちら](https://firebase.google.com/docs/cloud-messaging/ios/certs)をご覧ください。
 
 #### Hosting
-NOP
+Hostingを利用するためには、`Firebase CLI`が必要になります。
+[こちら](https://firebase.google.com/docs/hosting/quickstart)を参考に設定を行ってください。
+
+また以下のHTMLファイルに、KARTEの計測タグを設置する必要があります。
+計測タグの設置方法に関しては、[こちら](https://developers.karte.io/docs/setup-web)をご覧ください。
+- hosting/public/order.html
+- hosting/public/complete.html
 
 ### Set the initial data.
-To set the initial data (item data), run the following command:
+サンプルアプリケーションを利用するために、事前に初期データをFirebaseに投入する必要があります。
+初期データ投入スクリプトは `node.js` で書かれており、いくつかのパッケージに依存しています。
+スクリプト実行前に、依存パッケージをインストールしてください。
 ```bash
-cd native-karte-play/firebase/fixture
+cd carte/firebase/fixture
+npm install
+```
+
+以下のコマンドを実行して、初期データの投入を行ってください （コマンドの実行には Node.js v10.10 以上が必要です）
+
+```bash
+cd carte/firebase/fixture
 node index.js
 ```
-You must have Node.js v10.10 or higher to run the command.
 
+引き続き、以下のコマンドを実行して、HTMLコンテンツのホスティング処理を行なってください。
+```bash
+cd carte/firebase/hosting
+firebase deploy
+```
 
 ## Installation (Application)
-To install the application on the device, you must install tools such as CocoaPods and Fastlane.<br>
-CocoaPods and Fastlane are installed using Bundler.
+サンプルアプリケーションをビルドするためには、CocoaPods等のツールを事前にインストールしておく必要があります。
+以下のコマンドを実行してください。
 ```bash
-cd native-karte-play/CARTE
+cd carte/CARTE
 bundle install --path vendor/bundler
 ```
 
-The application relies on several libraries.<br>
-To install them, run the following command:
+サンプルアプリケーションは、いくつかのライブラリに依存しています。
+以下のコマンドを実行して、依存ライブラリのインストールを行なってください。
 ```bash
+cd carte/CARTE
 bundle exec pod install
 ```
 
-After you start Xcode, press ⌘ + R to run the application.
+サンプルアプリケーションを実行するには、数カ所コードの修正を行う必要があります。
+- `CARTE/CARTE/Configuration.swift` の修正 (ソースコードコメントを参考に以下3箇所を修正)
+  - applicationKey
+  - webContentHostingURL
+  - deeplinkBaseURL
 
-If you are running on a device, you must install the certificate.<br>
-It is possible to install this by running the following command:
-```
-bundle exec fastlane certificate
-```
-
-## Deploy
-To distribute the application, you must run the following command:
-```
-bundle exec fastlane release
-```
+Xcodeを起動して、「⌘ + R」キーを押しビルドを行います。
+各種設定が問題なく行われていれば、ビルドが成功し、アプリケーションが起動するはずです。
