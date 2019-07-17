@@ -1,5 +1,5 @@
 # CARTE
-CARTEは、「KARTE for App」のSDKを検証するためのサンプルアプリケーションです。
+CARTEは、「KARTE for App」のSDKを検証するためのサンプルアプリケーションです。<br>
 このサンプルアプリケーションでは、KARTE for App SDKの基本的な機能を試す事が可能です。
 
 ## Requirements
@@ -9,7 +9,7 @@ CARTEは、「KARTE for App」のSDKを検証するためのサンプルアプ�
 * Node.js 10.10+
 
 ## Installation (Firebase)
-このサンプルアプリケーションでは、バックエンドに「Firebase」を採用しております。
+このサンプルアプリケーションでは、バックエンドに「Firebase」を採用しております。<br>
 そのため事前にFirebaseのセットアップが必要になります。
 
 ### Features of the required Firebase.
@@ -37,29 +37,34 @@ service cloud.firestore {
 ```
 
 #### Cloud Messaging
-「APNs Auth Key」を設定する必要があります。
+「APNs Auth Key」を設定する必要があります。<br>
 詳細は[こちら](https://firebase.google.com/docs/cloud-messaging/ios/certs)をご覧ください。
 
 #### Hosting
-Hostingを利用するためには、`Firebase CLI`が必要になります。
+Hostingを利用するためには、`Firebase CLI`が必要になります。<br>
 [こちら](https://firebase.google.com/docs/hosting/quickstart)を参考に設定を行ってください。
 
-また以下のHTMLファイルに、KARTEの計測タグを設置する必要があります。
+また以下のHTMLファイルに、KARTEの計測タグを設置する必要があります。<br>
 計測タグの設置方法に関しては、[こちら](https://developers.karte.io/docs/setup-web)をご覧ください。
 - hosting/public/order.html
 - hosting/public/complete.html
 
 ### Set the initial data.
 サンプルアプリケーションを利用するために、事前に初期データをFirebaseに投入する必要があります。
-初期データ投入スクリプトは `node.js` で書かれており、いくつかのパッケージに依存しています。
+
+初期データ投入スクリプトは `node.js` で書かれており、いくつかのパッケージに依存しています。<br>
 スクリプト実行前に、依存パッケージをインストールしてください。
 ```bash
 cd carte/firebase/fixture
 npm install
 ```
 
-以下のコマンドを実行して、初期データの投入を行ってください （コマンドの実行には Node.js v10.10 以上が必要です）
+`carte/firebase/fixture` ディレクトリに、[こちら](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk)から取得したサービスアカウントキーを配置してください。
+その上で、スクリプト（carte/firebase/fixture/index.js）を修正します。
+- 2行目の `<YOUR_SERVICE_ACCOUNT_KEY>` 部分をファイル名に置き換える
+- 7行目の `<YOUR_PROJECT_ID>` 部分をFirebaseプロジェクトIDに置き換える
 
+以下のコマンドを実行して、初期データの投入を行ってください （コマンドの実行には Node.js v10.10 以上が必要です）
 ```bash
 cd carte/firebase/fixture
 node index.js
