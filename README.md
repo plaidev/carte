@@ -87,10 +87,12 @@ bundle exec pod install
 ```
 
 サンプルアプリケーションを実行するには、数カ所コードの修正を行う必要があります。
-- `CARTE/CARTE/Configuration.swift` の修正 (ソースコードコメントを参考に以下3箇所を修正)
+1. `CARTE/CARTE/Configuration.swift` の修正 (ソースコードコメントを参考に以下3箇所を修正)
   - applicationKey
   - webContentHostingURL
   - deeplinkBaseURL
+2. `CARTE/CARTE` ディレクトリ直下に `GoogleService-Info.plist` を配置
+  - `GoogleService-Info.plist` の取得については、[こちら](https://firebase.google.com/docs/ios/setup)をご覧ください。
 
 Xcodeを起動して、「⌘ + R」キーを押しビルドを行います。
 各種設定が問題なく行われていれば、ビルドが成功し、アプリケーションが起動するはずです。
