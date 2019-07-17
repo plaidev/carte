@@ -59,7 +59,7 @@ cd carte/firebase/fixture
 npm install
 ```
 
-`carte/firebase/fixture` ディレクトリに、[こちら](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk)から取得したサービスアカウントキーを配置してください。
+`carte/firebase/fixture` ディレクトリに、[こちら](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk)から取得したサービスアカウントキーを配置してください。<br>
 その上で、スクリプト（carte/firebase/fixture/index.js）を修正します。
 - 2行目の `<YOUR_SERVICE_ACCOUNT_KEY>` 部分をファイル名に置き換える
 - 7行目の `<YOUR_PROJECT_ID>` 部分をFirebaseプロジェクトIDに置き換える
@@ -77,14 +77,14 @@ firebase deploy
 ```
 
 ## Installation (Application)
-サンプルアプリケーションをビルドするためには、CocoaPods等のツールを事前にインストールしておく必要があります。
+サンプルアプリケーションをビルドするためには、CocoaPods等のツールを事前にインストールしておく必要があります。<br>
 以下のコマンドを実行してください。
 ```bash
 cd carte/CARTE
 bundle install --path vendor/bundler
 ```
 
-サンプルアプリケーションは、いくつかのライブラリに依存しています。
+サンプルアプリケーションは、いくつかのライブラリに依存しています。<br>
 以下のコマンドを実行して、依存ライブラリのインストールを行なってください。
 ```bash
 cd carte/CARTE
@@ -99,5 +99,5 @@ bundle exec pod install
 2. `CARTE/CARTE` ディレクトリ直下に `GoogleService-Info.plist` を配置
   - `GoogleService-Info.plist` の取得については、[こちら](https://firebase.google.com/docs/ios/setup)をご覧ください。
 
-Xcodeを起動して、「⌘ + R」キーを押しビルドを行います。
+Xcodeを起動して、「⌘ + R」キーを押しビルドを行います。<br>
 各種設定が問題なく行われていれば、ビルドが成功し、アプリケーションが起動するはずです。
