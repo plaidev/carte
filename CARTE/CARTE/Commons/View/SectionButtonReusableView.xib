@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SectionButtonReusableView" id="U6b-Vx-4bR" customClass="SectionButtonReusableView" customModule="CARTE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3J-XF-Pxt">
+                    <rect key="frame" x="20" y="6" width="280" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="4Um-kH-utg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" name="button_secondary"/>
+                    </state>
+                    <connections>
+                        <action selector="tapButton:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="Jnc-Nc-IYe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="H3J-XF-Pxt" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="20" id="1eG-Xp-8ce"/>
+                <constraint firstAttribute="trailing" secondItem="H3J-XF-Pxt" secondAttribute="trailing" constant="20" id="Xze-li-0uQ"/>
+                <constraint firstAttribute="bottom" secondItem="H3J-XF-Pxt" secondAttribute="bottom" constant="24" id="f8e-iv-YNw"/>
+            </constraints>
+            <connections>
+                <outlet property="button" destination="H3J-XF-Pxt" id="WJv-er-UfD"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <namedColor name="button_secondary">
+            <color red="0.0" green="0.062745098039215685" blue="0.054901960784313725" alpha="0.80000001192092896" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

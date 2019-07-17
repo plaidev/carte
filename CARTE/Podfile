@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'CARTE' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CARTE
+  pod 'R.swift'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Messaging'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'KarteTracker'
+  pod 'TPKeyboardAvoiding'
+  pod 'Crossroad'
+  pod 'Kingfisher'
+end
+
+target 'NotificationServiceExtension' do
+  use_frameworks!
+
+  pod 'KarteTrackerAppExtensions'
+end

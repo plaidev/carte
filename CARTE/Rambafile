@@ -1,0 +1,25 @@
+### Headers settings
+company: PLAID, inc
+
+### Xcode project settings
+project_name: CARTE
+xcodeproj_path: CARTE.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: CARTE
+
+# The file path for new modules
+project_file_path: /CARTE/Modules
+
+# The Xcode group path to new modules
+project_group_path: /CARTE/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}

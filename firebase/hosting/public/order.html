@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+    <title>ご注文情報</title>
+    <link type="text/css" rel="stylesheet" href="./styles/index.css" />
+    <!-- KARTE TAG -->
+  </head>
+  <body>
+    <section class="payment">
+      <h2>お支払い方法</h2>
+      <hr />
+      <div>
+        <div class="radio">
+          <input type="radio" name="payment" id="payment-radio-1" checked>
+          <label for="payment-radio-1">クレジットカード</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="payment" id="payment-radio-2">
+          <label for="payment-radio-2">代金引換</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="payment" id="payment-radio-3">
+          <label for="payment-radio-3">銀行振込</label>
+        </div>
+      </div>
+    </section>
+    <section class="address">
+      <h2>お届け先</h2>
+      <hr />
+      <div>
+        <p>〒104-0061 東京都中央区銀座6-10-1</p>
+        <p>TEL：000-999-999</p>
+      </div>
+    </section>
+    <section class="date">
+      <h2>お届け希望日</h2>
+      <button>変更</button>
+      <hr />
+      <div>
+        <div class="radio">
+          <input type="radio" name="date" id="date-radio-1" checked>
+          <label for="date-radio-1">指定なし</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="date" id="date-radio-2">
+          <label for="date-radio-2">日時指定</label>
+        </div>
+      </div>
+    </section>
+    <section class="point">
+      <h2>ポイント利用</h2>
+      <hr />
+      <div>
+        <div class="radio">
+          <input type="radio" name="point" id="point-radio-1" checked>
+          <label for="point-radio-1">利用しない</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="point" id="point-radio-2">
+          <label for="point-radio-2">利用する</label>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <a href="complete.html" class="primary-button"><button>注文を確定する</button></a>
+        <a href="#continue" class="link" style="margin-block-end: 44px;">ショッピングを続ける</a>
+      </div>
+    </section>
+  </body>
+</html>

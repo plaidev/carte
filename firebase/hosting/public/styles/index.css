@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system;
+}
+h2 {
+  font-size: 16px;
+  color: rgba(0, 16, 14, 0.8);
+  font-weight: normal;
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+}
+hr {
+  border-width: 0.5px;
+}
+section {
+  position: relative;
+}
+section > div {
+  padding-block-start: 8px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+}
+section > div > p:first-child {
+  padding-block-start: 13px;
+}
+section > div > p {
+  color: rgba(0, 16, 14, 0.55);
+}
+section > button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 56px;
+  height: 32px;
+  border: none;
+  background: rgba(0, 16, 14, 0.06);
+  border-radius: 4px;
+  padding: 0;
+}
+.radio {
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+}
+.radio label {
+  display: block;
+  color: rgba(0, 16, 14, 0.55);
+}
+
+/* custom radio */
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label {
+  position: relative;
+  padding-left: 40px;
+  margin-right: 40px;
+}
+input[type="radio"] + label::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background: rgba(0, 16, 14, 0.06);
+  border-radius: 50%;
+}
+input[type="radio"]:checked + label::before {
+  background: #EF9816;
+}
+input[type="radio"]:checked + label::after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 8px;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+section + section {
+  margin-block-start: 16px;
+}
+
+a.primary-button {
+  display: flex;
+  justify-content: flex-start;
+  height: 48px;
+  text-decoration: none;
+  margin-block-start: 24px;
+}
+a.primary-button button {
+  flex-grow: 1;
+  border: none;
+  background: #EF9816;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 14px;
+}
+a.link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0, 16, 14, 0.55);
+  font-size: 14px;
+  margin-block-start: 32px;
+}
+
+header {
+}
+header h1 {
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(0, 16, 14, 0.8);
+  margin-block-start: 32px;
+}
+header p {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 16, 14, 0.55);
+  margin-block-start: 24px;
+  margin-block-end: 24px;
+}
+section dl {
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  padding-block-start: 24px;
+}
+dl dt {
+  font-size: 16px;
+  color: rgba(0, 16, 14, 0.8);
+}
+dl dd {
+  font-size: 14px;
+  color: rgba(0, 16, 14, 0.55);
+}
+dd + dt {
+  margin-block-start: 16px;
+}
+dt + dd {
+  margin-block-start: 8px;
+}
+
+.item {
+  padding-block-start: 0;
+}
+.item > div {
+  display: flex;
+  flex-direction: row;
+  margin-block-start: 24px;
+  margin-block-end: 24px;
+}
+.item > div > img {
+  width: 118px;
+  height: 144px;
+  object-fit: contain;
+}
+.item > div > div {
+  display: flex;
+  flex-direction: column;
+  margin-inline-start: 16px;
+  margin-block-start: 5px;
+}
+.item > div > div > p.brand {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0, 16, 14, 0.8);
+}
+.item > div > div > p.price {
+  font-size: 18px;
+  color: rgba(0, 16, 14, 0.8);
+}
+.item > div > div > p {
+  font-size: 12px;
+  color: rgba(0, 16, 14, 0.55);
+}
+.item > div > div > p + p {
+  margin-block-start: 2px;
+}
+.item > div > div > p:first-child + p {
+  margin-block-start: 4px;
+}
+.item > div > div > p:last-child {
+  margin-block-start: 8px;
+}

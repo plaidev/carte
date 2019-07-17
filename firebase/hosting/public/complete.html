@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+    <title>ご注文完了</title>
+    <link type="text/css" rel="stylesheet" href="./styles/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- KARTE TAG -->
+  </head>
+  <body>
+    <header>
+      <h1>ご購入ありがとうございました</h1>
+      <p>以下の内容でご注文を承りました。</p>
+      <hr>
+    </header>
+    <section id="items" class="items">
+      <div v-for="item in items" class="item">
+        <div>
+          <img :src="item.image">
+          <div>
+            <p class="brand">{{ item.brand }}</p>
+            <p class="name">{{ item.name }}</p>
+            <p class="color">カラー：イエロー</p>
+            <p class="size">サイズ：S</p>
+            <p class="quantity">数量：1</p>
+            <p class="price">{{ item.price }}</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+    <section class="order">
+      <dl>
+        <dt>お支払い方法</dt>
+        <dd>クレジットカード</dd>
+        <dt>お届け先</dt>
+        <dd>〒104-0061 東京都中央区銀座6-10-1<br>TEL：000-999-999</dd>
+        <dt>お届け希望日</dt>
+        <dd>日時指定なし</dd>
+        <dt>ポイント利用</dt>
+        <dd>利用しない</dd>
+      </dl>
+    </section>
+    <section>
+      <div>
+        <a href="#continue" class="primary-button" style="margin-block-end: 44px;"><button>戻る</button></a>
+      </div>
+    </section>
+    <script type="text/javascript" src="./scripts/complete.js"></script>
+  </body>
+</html>

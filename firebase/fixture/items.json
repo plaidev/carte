@@ -1,0 +1,134 @@
+[
+  {
+    "id": "001",
+    "name": "デニムジャケット",
+    "brand": "BRANDNAME",
+    "category": "ジャケット/アウター",
+    "price": 9800,
+    "image": {
+      "middle": "./images/middle/img_item_1.jpg",
+      "large": "./images/large/img_item_1.jpg"
+    }
+  },
+  {
+    "id": "002",
+    "name": "フラワープリントワンピース",
+    "brand": "BRANDNAME",
+    "category": "ワンピース",
+    "price": 12600,
+    "image": {
+      "middle": "./images/middle/img_item_2.jpg",
+      "large": "./images/large/img_item_2.jpg"
+    }
+  },
+  {
+    "id": "003",
+    "name": "クルーネックニット",
+    "brand": "BRANDNAME",
+    "category": "トップス",
+    "price": 5800,
+    "image": {
+      "middle": "./images/middle/img_item_3.jpg",
+      "large": "./images/large/img_item_3.jpg"
+    }
+  },
+  {
+    "id": "004",
+    "name": "セットアップ",
+    "brand": "BRANDNAME",
+    "category": "オールインワン・サロペット",
+    "price": 9800,
+    "image": {
+      "middle": "./images/middle/img_item_4.jpg",
+      "large": "./images/large/img_item_4.jpg"
+    }
+  },
+  {
+    "id": "005",
+    "name": "チェスターコート",
+    "brand": "BRANDNAME",
+    "category": "ジャケット/アウター",
+    "price": 15600,
+    "image": {
+      "middle": "./images/middle/img_item_5.jpg",
+      "large": "./images/large/img_item_5.jpg"
+    }
+  },
+  {
+    "id": "006",
+    "name": "チェスターコート",
+    "brand": "BRANDNAME",
+    "category": "ジャケット/アウター",
+    "price": 24900,
+    "image": {
+      "middle": "./images/middle/img_item_6.jpg",
+      "large": "./images/large/img_item_6.jpg"
+    }
+  },
+  {
+    "id": "007",
+    "name": "オフショルダーワンピース",
+    "brand": "BRANDNAME",
+    "category": "ワンピース",
+    "price": 5900,
+    "image": {
+      "middle": "./images/middle/img_item_7.jpg",
+      "large": "./images/large/img_item_7.jpg"
+    }
+  },
+  {
+    "id": "008",
+    "name": "セットアップ",
+    "brand": "BRANDNAME",
+    "category": "オールインワン・サロペット",
+    "price": 5900,
+    "image": {
+      "middle": "./images/middle/img_item_8.jpg",
+      "large": "./images/large/img_item_8.jpg"
+    }
+  },
+  {
+    "id": "009",
+    "name": "シャツ",
+    "brand": "BRANDNAME",
+    "category": "トップス",
+    "price": 3900,
+    "image": {
+      "middle": "./images/middle/img_item_9.jpg",
+      "large": "./images/large/img_item_9.jpg"
+    }
+  },
+  {
+    "id": "010",
+    "name": "カットソー",
+    "brand": "BRANDNAME",
+    "category": "トップス",
+    "price": 3980,
+    "image": {
+      "middle": "./images/middle/img_item_10.jpg",
+      "large": "./images/large/img_item_10.jpg"
+    }
+  },
+  {
+    "id": "011",
+    "name": "マウンテンパーカー",
+    "brand": "BRANDNAME",
+    "category": "ジャケット/アウター",
+    "price": 18900,
+    "image": {
+      "middle": "./images/middle/img_item_11.jpg",
+      "large": "./images/large/img_item_11.jpg"
+    }
+  },
+  {
+    "id": "012",
+    "name": "カットソー",
+    "brand": "BRANDNAME",
+    "category": "トップス",
+    "price": 3900,
+    "image": {
+      "middle": "./images/middle/img_item_12.jpg",
+      "large": "./images/large/img_item_12.jpg"
+    }
+  }
+]
